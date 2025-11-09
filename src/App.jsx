@@ -10,9 +10,11 @@ import {
   PlaceOrder,
   Orders,
 } from "./pages";
+import { Navbar } from "./components";
 function App() {
   return (
     <div className="px-4 sm:px-[5vm] md:px[7vm] lg:px-[9vm]">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />,
         <Route path="/collection" element={<Collection />} />,
