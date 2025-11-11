@@ -11,9 +11,10 @@ import {
   Orders,
 } from "./pages";
 import { Navbar } from "./components";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] ">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />,
@@ -26,6 +27,7 @@ function App() {
         <Route path="/place-order" element={<PlaceOrder />} />,
         <Route path="/orders" element={<Orders />} />,
       </Routes>
+      <Footer />
     </div>
   );
 }
