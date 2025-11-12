@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import NewslertterBox from "./NewsLetterBox";
 import OurPolicy from "./OurPolicy";
 import SearchBar from "./SearchBar";
+import RelatedProducts from "./RelatedProducts";
 export {
   Navbar,
   NewslertterBox,
@@ -19,4 +20,5 @@ export {
   Title,
   ProductItem,
   SearchBar,
+  RelatedProducts,
 };
