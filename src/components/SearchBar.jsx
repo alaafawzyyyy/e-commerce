@@ -18,6 +18,8 @@ function SearchBar() {
       setVisible(true);
     } else {
       setVisible(false);
+      setShowSearch(false);
+      setSearch("");
     }
   }, [location]);
 

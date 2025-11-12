@@ -16,7 +16,6 @@ function RelatedProducts({ category, subcategory }) {
       setRelated(productsCopy.slice(0, 5));
     }
   }, [products]);
-  console.log(related);
 
   return (
     <div className="my-24">
