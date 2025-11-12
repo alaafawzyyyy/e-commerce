@@ -1,8 +1,8 @@
 import { Hero } from "../components";
 import { LatestCollection } from "../components";
-import BestSeller from "../components/BestSeller";
-import NewsletterBox from "../components/NewsletterBox";
-import OurPolicy from "../components/OurPolicy";
+import { BestSeller } from "../components";
+import { NewslertterBox } from "../components";
+import { OurPolicy } from "../components";
 function Home() {
   return (
     <div>
@@ -10,7 +10,7 @@ function Home() {
       <LatestCollection />
       <BestSeller />
       <OurPolicy />
-      <NewsletterBox />
+      <NewslertterBox />
     </div>
   );
 }
