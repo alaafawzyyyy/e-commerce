@@ -9,6 +9,7 @@ import NewslertterBox from "./NewsLetterBox";
 import OurPolicy from "./OurPolicy";
 import SearchBar from "./SearchBar";
 import RelatedProducts from "./RelatedProducts";
+import CartTotal from "./CartTotal";
 export {
   Navbar,
   NewslertterBox,
@@ -21,4 +22,5 @@ export {
   ProductItem,
   SearchBar,
   RelatedProducts,
+  CartTotal,
 };
