@@ -1,16 +1,60 @@
-# React + Vite
+# Forever Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based e-commerce web application. The project aims to provide a modern and responsive online shopping experience.
 
-Currently, two official plugins are available:
+##  Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:**
+  - React.js
+  - JavaScript
+  - Tailwind CSS for styling
+- **State Management:** React Context API
+- **Routing:** React Router
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fully responsive design for mobile, tablet, and desktop
+- Browse products by categories
+- Add products to cart and manage cart items
+- interactive UI elements using Tailwind CSS
 
-## Expanding the ESLint configuration
+##  Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/alaafawzyyyy/e-commerce
+
+2. **Navigate to the project folder:**
+   ```bash
+    cd e-commerce
+
+3. **Install dependencies:**
+   ```bash
+    npm install
+
+4. **Start the development server:**
+   ```bash
+    npm run dev
+
+## Screenshots
+![Home Page](assets/Screenshot2.png)
+![Latest collection](assets/Screenshot3.png)
+![Best Seller](assets/Screenshot4.png)
+![Footer](assets/Screenshot5.png)
+![Collection Page](assets/Screenshot6.png)
+![Filters](assets/Screenshot7.png)
+![About Page](assets/Screenshot8.png)
+![Why us](assets/Screenshot9.png)
+![Contact us Page](assets/Screenshot10.png)
+![Search](assets/Screenshot11.png)
+![product Page](assets/Screenshot12.png)
+![Related products](assets/Screenshot13.png)
+![Cart Page](assets/Screenshot14.png)
+![Cart total](assets/Screenshot15.png)
+![Delivery Page](assets/Screenshot16.png)
+![Orders Page](assets/Screenshot17.png)
+![Sign up](assets/Screenshot18.png)
+![Login](assets/Screenshot19.png)
+
